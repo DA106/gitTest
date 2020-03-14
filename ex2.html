@@ -1,0 +1,39 @@
+﻿
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>HTML5-影像標註</title>
+</head>
+<body>
+<h1>GOOD PHOTO</h1><hr>
+<!--現在W3C已不推薦用table排版。 以下v1.jpg要經過3層才讀的到-->
+	<table>
+		<tr>
+			<td><img src="v1.jpg" alt="v1.jpg"></td>  <!--alt是圖片的替代文字，也用在無障礙設計上，不能省略-->
+			<td><img src="v2.jpg" alt="v2.jpg"></td>
+			<td><img src="v3.jpg" alt="v3.jpg"></td>
+		</tr>
+		<tr>
+			<td>田野</td>
+			<td>海洋</td>
+			<td>美食</td>
+		</tr>
+	</table>
+
+<hr><!--水平線-->
+
+	<figure><!--可以都包在一個figure裡面，也可以分開包三個-->
+		<img src="v1.jpg" alt="v1.jpg">
+		<figcaption>田野</figcaption>
+		<img src="v2.jpg" alt="v2.jpg">
+		<figcaption>海洋</figcaption>
+		<img src="v3.jpg" alt="v3.jpg">
+		<figcaption>美食</figcaption>
+	</figure>
+
+</body>
+</html>
+<!-- 請在水平線標籤下方將影像v1.jpg~v3.jpg連結至頁面中 
+	 請利用figure標籤安排標註
+-->
